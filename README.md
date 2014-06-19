@@ -8,6 +8,8 @@ Functions implemented:
     downsample
     upsample
 
+The load_toolbox function will not overload these if already present.
+
 To get library clone from github:
 
     cd to your lib folder

@@ -30,6 +30,15 @@
   test(end+1).data =  [1:target]  ; test(end).R =15; test(end).expect = [1:15:target];
   test(end+1).data =  [1:target]  ; test(end).R =16; test(end).expect = [1:16:target];
   
+  %1 Dimensional matrices on the other axis
+  test(end+1).data =  [1:target]'  ; test(end).R = 1; test(end).expect = [1:1:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 2; test(end).expect = [1:2:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 3; test(end).expect = [1:3:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 4; test(end).expect = [1:4:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 5; test(end).expect = [1:5:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 6; test(end).expect = [1:6:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 7; test(end).expect = [1:7:target]';
+  test(end+1).data =  [1:target]'  ; test(end).R = 8; test(end).expect = [1:8:target]';
   
   
   %% The tests
